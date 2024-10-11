@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!--Initial stuff-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Assignment 2">
+        <meta name="robots" content="noindex, nofollow">
+        <title>Pizza order form</title>
+        <!--CSS stylesheet-->
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <header>
+            <div>
+                <a href="index.html"><img src="./img/logo.jpg" alt="Pizza logo, image by macrovector"> </a>
+            </div>
+        </header>
+        <main>
+            <form action="pizza.php" method="post" enctype="multipart/form-data">
+                <input name="FirstName" placeholder="Your First Name" type="text">
+                <input name="LastName" placeholder="Your Last Name" type="text"> <!-- no break cause first and last name can be next to each other-->
+                <br>
+                <input name="email" placeholder="sampleemail@address.com" type="email">
+                <br>
+                <label>Pizza Size</label> <!--Labels seem to work for this-->
+                <br>
+                <input name="size" id="8in" type="radio"> <!--Radio checkboxes because you cannot buy a single pizza of two varying types-->
+                <label for="8in">8 Inch</label>
+                <br>
+                <input name="size" id="10in" type="radio">
+                <label for="8in">10 Inch</label>
+                <br>
+                <input name="size" id="12in" type="radio">
+                <label for="12in">12 Inch</label>
+                <br>
+                <input name="size" id="16in" type="radio">
+                <label for="16in">16 Inch</label>
+                <br>
+                <label>Pizza Toppings</label>
+                <br>
+                <input name="cheescheck" id="cheese" type="checkbox"> <!--What psychopath would uncheck this-->
+                <label for="cheese">Cheese</label>
+                <br>
+                <input name="pepcheck" id="pepperoni" type="checkbox">
+                <label for="pepperoni">Pepperoni</label>
+                <br>
+                <input name="anchcheck" id="anchovies" type="checkbox">
+                <label for="anchovies">Anchovies</label>
+                <br>
+                <input name="bacocheck" id="bacon" type="checkbox">
+                <label for="bacon">Bacon</label>
+                <br>
+                <label>Number of Pizzas: </label>
+                <input name="numofpizzas" id="pizzas" type="number">
+                <br>
+                <textarea placeholder="Include any other instructions here ..."></textarea>
+                <input type="submit" value="Send Form">
+            </form>
+            <footer>
+                <a href="https://www.freepik.com/free-vector/colorful-round-tasty-pizza_3799722.htm#query=pizza&position=0&from_view=keyword&track=ais_hybrid&uuid=2970fb70-3d9c-4204-8886-d1e44b95c65f">Image by macrovector</a>
+            </footer>
+        </main>
+    </body>

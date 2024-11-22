@@ -1,0 +1,73 @@
+/*Values found by trial and error*/
+.topleft{
+    transform: rotate(-60deg); /*This seems to be the rotation used in the poster*/
+    position: absolute;
+    top: 150px;
+    left: -40px;
+    color: white;
+}
+.titlecenter{
+    transform: rotate(-60deg);
+    position: absolute;
+    font-size: 100px;
+    top: 300px;
+    left: -200px;
+    letter-spacing: 140px;
+    color: white;
+}
+.bottomright-wide1{
+    transform: rotate(-60deg);
+    position: absolute;
+    color: white;
+    left: 325px;
+    top: 800px;
+}
+h4{ /*All narrow credit text*/
+    color: rgb(200, 200, 200);
+    font-family: "PT Sans Narrow", sans-serif;
+    font-size: 14px;
+}
+h3{ /*All non-title white text*/
+    font-family: "Poppins", sans-serif;
+}
+.bottomright-narrow1{
+    transform: rotate(-60deg);
+    position: absolute;
+    left:475px;
+    top: 620px;
+}
+.bottomright-narrow2{
+    transform: rotate(-60deg);
+    position: absolute;
+    left:315px;
+    top: 730px;
+    font-size: 10px;
+}
+.bottomright-narrow3{
+    transform: rotate(-60deg);
+    position: absolute;
+    left:340px;
+    top: 750px;
+    font-size: 10px;
+}
+.bottomright-narrow4{
+    transform: rotate(-60deg);
+    position: absolute;
+    left:490px;
+    top: 720px;
+    font-size: 7px; /*Have to make the text small so it fits*/
+}
+.bottomright-wide2{
+    transform: rotate(-60deg);
+    position: absolute;
+    left:430px;
+    top: 850px;
+    color: lightgray;
+}
+.bottomright-wide3{
+    transform: rotate(-60deg);
+    position: absolute;
+    left:450px;
+    top: 830px;
+    color: white;
+}

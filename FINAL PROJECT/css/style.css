@@ -1,0 +1,72 @@
+body{
+    background-color: lightgray;
+}
+/*Global header and footer stuff*/
+.gheader{
+    display: grid;
+    padding-left: 5%;
+    grid-template-columns: 15% 20% 10% 10% 10%;
+    grid-template-rows: 1;
+    background-color: lightgreen;
+}
+.gfooter{
+    display: grid;
+    background-color: lightcyan;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 1;
+    padding-bottom: 5%;
+}
+h1{
+    font-family: Oswald, sans-serif;
+}
+.logo{
+    width: auto;
+    height: 150px;
+}
+.about > h2{
+    font-size: 30px;
+    padding-left: 5%;
+    font-family: Lato;
+}
+.about > p{
+    color: black;
+    font-size: 20px;
+    padding-left: 10%;
+    font-family: Roboto Slab;
+}
+.about{
+    background-color: white;
+    padding-left: 10%;
+    padding-bottom: 30px;
+}
+.shopimg{
+    display: grid;
+    padding-left: 10%;
+    grid-template-columns: 20% 70%;
+    background-color: darkcyan
+}
+.shopimg > img{
+    width: 100%;
+    height: auto;
+}
+.shopimg >h3{
+    align-self: center;
+}
+.contact{ /*Contact us page text*/
+    padding-left: 10%;
+    background-color: white;
+    font-family: Roboto Slab;
+}
+
+.trainstats{
+    display: grid;
+    padding-left: 10%;
+    grid-template-columns: 30% 30%;
+    background-color: white;
+    font-family: Roboto Slab;
+}
+
+aside{ /*information sections on model pages*/
+    line-height: 100%;
+    font-family: Roboto Slab;
+}
